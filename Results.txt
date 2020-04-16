@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------------------------------------------------------------
+Description textuelle -- Date : Thu Apr 16 17:48:45 CET 2020
+-------------------------------------------------------------------------------------------------------------------------------------
+Information projet
+-------------------------------------------------------------------------------------------------------------------------------------
+Nom du projet: DummyData
+Nombre de packages: 2
+Nombre de classe: 3
+Java version: 1.8.0_242
+OS: Linux
+-------------------------------------------------------------------------------------------------------------------------------------
+Informations classes
+-------------------------------------------------------------------------------------------------------------------------------------
+Classe 1:
+Nom Package: pack1
+Nom Class: Employee
+Nombre des attributs publics: 3
+Liste et types des attributs publics: [ name - String, age - int, designation - String, ]
+Nombre des attributs privés: 1
+Liste et types des attributs privés : [ salary - double, ]
+Liste des constructeurs: [ pack1.Employee pack1.Employee ]
+Nombre de méthodes: 4
+Liste des méthodes: [ empAge, empDesignation, empSalary, printName, ]
+Type de retour des méthodes: [ empAge: void, empDesignation: void, empSalary: void, printName: void, ]
+Paramètres et types des méthodes: empAge[param1: int, ], empDesignation[param1: String, ], empSalary[param1: double, ], printName[], 
+-------------------------------------------------------------------------------------------------------------------------------------
+Classe 2:
+Nom Package: pack1
+Nom Class: Entreprise
+Nombre des attributs publics: 2
+Liste et types des attributs publics: [ name - String, adresse - String, ]
+Nombre des attributs privés: 0
+Liste et types des attributs privés : [ ]
+Liste des constructeurs: [ pack1.Entreprise pack1.Entreprise ]
+Nombre de méthodes: 2
+Liste des méthodes: [ empAdresse, printName, ]
+Type de retour des méthodes: [ empAdresse: void, printName: void, ]
+Paramètres et types des méthodes: empAdresse[param1: String, ], printName[], 
+-------------------------------------------------------------------------------------------------------------------------------------
+Classe 3:
+Nom Package: pack2
+Nom Class: Emp
+Nombre des attributs publics: 3
+Liste et types des attributs publics: [ name - String, age - int, designation - String, ]
+Nombre des attributs privés: 1
+Liste et types des attributs privés : [ salary - double, ]
+Liste des constructeurs: [ pack2.Emp pack2.Emp ]
+Nombre de méthodes: 4
+Liste des méthodes: [ empAge, empDesignation, empSalary, printName, ]
+Type de retour des méthodes: [ empAge: void, empDesignation: void, empSalary: void, printName: void, ]
+Paramètres et types des méthodes: empAge[param1: int, ], empDesignation[param1: String, ], empSalary[param1: double, ], printName[], 
+-------------------------------------------------------------------------------------------------------------------------------------

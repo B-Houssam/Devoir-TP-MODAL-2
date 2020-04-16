@@ -1,0 +1,26 @@
+
+Class: pack1.P Package: java.lang Methode: main line: 42 AT: Thu Apr 16 16:46:44 CET 2020 message: / by zero
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 16:50:27 CET 2020 message: pack1.Emp
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 16:51:47 CET 2020 message: pack1.Emp
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 16:54:42 CET 2020 message: pack1.Emp
+Class: java.io.File Package: java.lang Methode: <init> line: 277 AT: Thu Apr 16 16:58:43 CET 2020 message: null
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 16:58:52 CET 2020 message: pack2.Employee
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:01:02 CET 2020 message: pack1.Emp
+Class: java.util.ArrayList Package: java.lang Methode: rangeCheck line: 657 AT: Thu Apr 16 17:01:38 CET 2020 message: Index: 2, Size: 2
+Class: java.util.ArrayList Package: java.lang Methode: rangeCheck line: 657 AT: Thu Apr 16 17:02:21 CET 2020 message: Index: 2, Size: 2
+Class: pack1.P Package: java.lang Methode: main line: 144 AT: Thu Apr 16 17:21:53 CET 2020 message: 0
+Class: pack1.P Package: java.lang Methode: main line: 144 AT: Thu Apr 16 17:22:16 CET 2020 message: 0
+Class: java.io.File Package: java.lang Methode: <init> line: 277 AT: Thu Apr 16 17:23:29 CET 2020 message: null
+Class: pack1.P Package: java.lang Methode: main line: 147 AT: Thu Apr 16 17:23:36 CET 2020 message: 0
+Class: pack1.P Package: java.lang Methode: main line: 158 AT: Thu Apr 16 17:25:42 CET 2020 message: null
+Class: pack1.P Package: java.lang Methode: main line: 157 AT: Thu Apr 16 17:27:17 CET 2020 message: null
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:27:50 CET 2020 message: .P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:31:04 CET 2020 message: default package.P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:31:55 CET 2020 message: P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:36:50 CET 2020 message: P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:36:59 CET 2020 message: P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:37:19 CET 2020 message: P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:37:29 CET 2020 message: P
+Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:42:47 CET 2020 message: pack1.Employee
+Class: pack1.P Package: java.lang Methode: main line: 53 AT: Thu Apr 16 17:43:54 CET 2020 message: null
+Class: pack1.P Package: java.lang Methode: main line: 53 AT: Thu Apr 16 17:47:57 CET 2020 message: null
