@@ -1,5 +1,8 @@
 # Devoir TP MODAL 2
 
+# please provide a path to the wanted project folder
+- the classes should be in a named package.
+
 Travail à faire:
 
 Donner le programme Java qui permet de récupérer et d’afficher les informations (ci-dessous) à partir d’un projet Java quelconque (un projet Java contient plusieurs classes Java).
@@ -15,6 +18,3 @@ Donner le programme Java qui permet de récupérer et d’afficher les informati
 -La liste des méthodes (nom de la méthode, type de paramètre de retour, liste des types des paramètres de la méthode).
 
 Utiliser la description textuelle (ci-dessous) pour l’organisation et l’affichage de ces informations. Cette description doit être sauvegardée dans un fichier .txt.
-
-please provide a path to the wanted project folder
-- the classes should be in a named package.
