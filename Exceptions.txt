@@ -24,3 +24,7 @@ Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 A
 Class: java.net.URLClassLoader Package: java.lang Methode: findClass line: 382 AT: Thu Apr 16 17:42:47 CET 2020 message: pack1.Employee
 Class: pack1.P Package: java.lang Methode: main line: 53 AT: Thu Apr 16 17:43:54 CET 2020 message: null
 Class: pack1.P Package: java.lang Methode: main line: 53 AT: Thu Apr 16 17:47:57 CET 2020 message: null
+Class: pack1.P Package: java.lang Methode: main line: 31 AT: Fri Apr 17 18:28:51 CET 2020 message: / by zero
+Class: pack1.P Package: java.lang Methode: main line: 31 AT: Fri Apr 17 18:28:56 CET 2020 message: / by zero
+Class: pack1.P Package: java.lang Methode: main line: 31 AT: Fri Apr 17 18:40:34 CET 2020 message: / by zero
+Class: java.io.File Package: java.lang Methode: <init> line: 277 AT: Wed Apr 29 12:27:59 CET 2020 message: null

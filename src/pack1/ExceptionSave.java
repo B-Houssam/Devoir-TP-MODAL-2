@@ -48,7 +48,7 @@ public class ExceptionSave implements Serializable{
 					exp.getStackTrace()[0].getLineNumber(),
 					exp.getMessage()
 				);
-			File f=new File("Exceptions.txt");
+			File f=new File(System.getProperty("user.dir") + "/Exceptions.txt");
 			BufferedWriter bw = new BufferedWriter(new FileWriter(f,true));
 			bw.newLine();
 			bw.write("Class: " + exS.Class + " Package: " + exS.pack + " Methode: " + exS.Meth + " line: " + exS.line + " AT: " + new Date() + " message: " + exS.msg);
@@ -100,7 +100,7 @@ public class ExceptionSave implements Serializable{
 					exp.getMessage()
 				);
 			
-			File f = new File("ExcpX.xml");
+			File f = new File(System.getProperty("user.dir") + "/ExcpX.xml");
 			BufferedWriter bw = new BufferedWriter(new FileWriter(f,true));
 			bw.write("<Exception>");
 			bw.newLine();

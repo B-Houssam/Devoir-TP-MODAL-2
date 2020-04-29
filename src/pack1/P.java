@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
 
@@ -31,7 +32,12 @@ public class P {
 			//int kk = 14/0;
 			//
 			
-			String path = JOptionPane.showInputDialog(null,"Path to your java project");
+			
+			JFileChooser fi = new JFileChooser();
+		    fi.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY); 
+		    fi.showOpenDialog(null);
+		     
+		    String path = fi.getSelectedFile().toString();
 			
 			/*
 			String userDir = System.getProperty("user.dir");
@@ -54,7 +60,7 @@ public class P {
 			//System.out.println(Arrays.toString(directories));
 			
 			
-			//pour recuperer le nobre total des classes dans tout les packages
+			//pour recuperer le nombre total des classes dans tout les packages
 			List<String> lc = new ArrayList<String>();
 			for (int i = 0; i < nbPacks; i++) {
 				File cls = new File(packs+"/"+directories[i]+"/");
@@ -73,7 +79,7 @@ public class P {
 			
 			*/
 			
-			File f=new File("Results.txt");
+			File f=new File(System.getProperty("user.dir") + "/Results.txt");
 			BufferedWriter br = new BufferedWriter(new FileWriter(f,false));
 			br.write("-------------------------------------------------------------------------------------------------------------------------------------");			
 			br.newLine();
@@ -204,7 +210,7 @@ public class P {
 			// TODO: handle exception
 			System.out.println("Exception: " + e.toString());
 			ExceptionSave s = new ExceptionSave();
-			s.save(e);
+			s.saveXml(e);
 		} finally {
 			JOptionPane.showMessageDialog(null, "Please check Source folder for exceptions or Results");
 			System.out.println("\n\n->Job Done!");
