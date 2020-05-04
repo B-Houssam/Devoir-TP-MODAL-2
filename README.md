@@ -1,6 +1,6 @@
 # Devoir TP MODAL 2
 
-# please provide a path to the wanted project folder
+# please provide a static path to your target project (directory)
 - the classes should be in a named package.
 
 Travail à faire:
